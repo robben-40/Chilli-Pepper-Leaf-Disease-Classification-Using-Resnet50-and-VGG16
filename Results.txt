@@ -1,0 +1,25 @@
+VGG-16 Model Results
+Final Accuracy: 98.89%
+Final loss: 0.025991111993789673
+Final Accuracy with validation data: 96.46%
+Final loss with validation data: 0.1772526055574417
+
+--- VGG-16 Final Hardware Report ---
+Total Parameters: 14,847,558
+Total FLOPs:      30,713,220,900
+RAM Usage:        156.13 MB
+GPU Infer Time:   181.02 ms per image
+CPU Infer Time:   181.98 ms per image
+
+Resnet-50 Model Results
+Final Accuracy: 98.89%
+Final loss: 0.026079699397087097
+Final Accuracy with validation data: 96.42%
+Final loss with validation data: 0.3054528832435608
+
+--- ResNet-50 Final Hardware Report ---
+Total Parameters: 24,113,798
+Total FLOPs:      7,752,249,252
+RAM Usage:        121.57 MB
+GPU Infer Time:   105.22 ms per image
+CPU Infer Time:   105.25 ms per image
