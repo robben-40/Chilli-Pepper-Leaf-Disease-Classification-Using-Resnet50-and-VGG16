@@ -1,0 +1,3 @@
+# Chilli Pepper Leaf Disease Claffication
+
+I compared the VGG-16 and ResNet-50 architectures to determine the most efficient model for classifying chili leaf diseases on resource-constrained devices. After expanding my dataset to 12,000 images through augmentation and optimizing the models with Global Average Pooling and Dropout, I found that ResNet-50 was the superior choice. Despite being a deeper network, its "bottleneck" design allowed it to achieve a higher accuracy of 97.21% while performing 75% less mathematical operations (FLOPs) and running 42% faster than VGG-16, proving it is the most effective architecture for fast, battery-efficient mobile deployment.
